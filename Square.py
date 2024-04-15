@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
+from Shape import Shape
 
-class Square:
+class Square(Shape):
     "A class representing a square."
 
     def __init__(self, side_length):
