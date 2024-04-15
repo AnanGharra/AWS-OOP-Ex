@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
+from Shape impoer Shape
 import math
 
-class Circle:
+class Circle(Shape):
     "A class representing a circle."
     
     def __init__(self, radius):
